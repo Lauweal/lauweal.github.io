@@ -26,7 +26,7 @@ jobs:
         run: npm run build
 
       - name: deploy
-        uses: renzhaosy/hexo-deploy-action@master
+        uses: solybum/hexo-deploy@master
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_REPOSITORY: MC-LiuWei/mc-liuwei.github.io
