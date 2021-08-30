@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
   
-      - name: clone thems
-        run: git clone https://github.com/SumiMakito/hexo-theme-typography themes/typography
+      # - name: clone thems
+      #   run: git clone https://github.com/SumiMakito/hexo-theme-typography themes/typography
         
       - name: cache node_modules
         uses: actions/cache@v1
