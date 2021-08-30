@@ -11,7 +11,7 @@ github: Lauweal
 # Choose the comment service according to your need.
 # Please do not use the two services at the same time.
 livere: # [data-uid] on livere.com
-disqus: https-lauweal-github-io.disqus.com
+disqus: https-lauweal-github-io
 dove: # For fun ONLY. Set to true to 'disable' comments on your site.
 
 # Set true to show the page indicator.
