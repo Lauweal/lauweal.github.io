@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+  
+      - name: clone thems
+        run: git clone https://github.com/SumiMakito/hexo-theme-typography themes/typography
         
       - name: cache node_modules
         uses: actions/cache@v1
@@ -30,5 +33,5 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_REPOSITORY: MC-LiuWei/mc-liuwei.github.io
-          BRANCH: master
+          BRANCH: gh-pages
           PUBLISH_DIR: ./public
