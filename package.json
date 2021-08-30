@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "copy": "copyfiles -f ./CNAME public",
-    "build": "npm run build:docs && npm run copy",
+    "build": "npm run clean && npm run build:docs && npm run copy",
     "build:docs": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
