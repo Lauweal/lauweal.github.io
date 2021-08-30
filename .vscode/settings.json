@@ -1,0 +1,12 @@
+{
+  "compile-hero.disable-compile-files-on-did-save-code": true,
+  "github-actions.workflows.pinned.workflows": [
+    ".github/workflows/release.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/storybook.yml"
+  ],
+  "github-actions.workflows.pinned.refresh.enabled": true,
+  "github-actions.workflows.pinned.refresh.interval": 65,
+  "liveServer.settings.port": 5501,
+  "terminal.integrated.automationShell.osx": "zsh",
+}
