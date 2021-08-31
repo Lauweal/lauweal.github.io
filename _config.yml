@@ -44,17 +44,17 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: true
-  tab_replace: ''
-  wrap: true
-  hljs: true
-  label:
-    left: Code
-    right: ':'
-    copy: Copy Code
+# highlight:
+#   enable: true
+#   line_number: true
+#   auto_detect: true
+#   tab_replace: ''
+#   wrap: true
+#   hljs: true
+#   label:
+#     left: Code
+#     right: ':'
+#     copy: Copy Code
 prismjs:
   enable: false
   preprocess: true
@@ -104,8 +104,8 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: typography
 
-# highlight:
-#   enable: false
+highlight:
+  enable: false
 
 plugin:
   - hexo-generator-category-enhance
