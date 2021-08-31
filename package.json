@@ -26,8 +26,7 @@
     "hexo-renderer-marked": "^4.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-theme-landscape": "^0.0.3",
-    "highlight.js": "^11.2.0"
+    "hexo-theme-landscape": "^0.0.3"
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",
