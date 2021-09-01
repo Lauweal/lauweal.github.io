@@ -19,7 +19,7 @@ tags:
 + vue的proxy实现迁移
 &emsp;&emsp;说到proxy的迁移它属于一个技术优化的架构演进,核心点在于对象内存的优化。js的对象属性变更这一点,背后的动作可能很少体现在我们的开发中,常常也会像下面这样写。
 
-```bash
+``` typescript
     const schema = { count: 1 };
     schema["status"] = false;
     const instance = new Schema({ count: 1 });

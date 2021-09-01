@@ -13,6 +13,9 @@
   "hexo": {
     "version": "5.4.0"
   },
+  "pre-push": [
+    "build"
+  ],
   "dependencies": {
     "hexo": "^5.0.0",
     "hexo-generator-archive": "^1.0.0",
@@ -30,6 +33,7 @@
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",
-    "hexo-deployer-git": "^3.0.0"
+    "hexo-deployer-git": "^3.0.0",
+    "pre-push": "^0.1.1"
   }
 }
